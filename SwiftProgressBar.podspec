@@ -32,9 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Source/**/*.swift'
 s.swift_version = '5.0'
-s.platform=   {
-"ios" = "12.0"
-}
+
   
   # s.resource_bundles = {
   #   'SwiftProgressBar' => ['SwiftProgressBar/Assets/*.png']
