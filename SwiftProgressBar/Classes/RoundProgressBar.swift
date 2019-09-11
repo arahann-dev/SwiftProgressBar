@@ -19,7 +19,7 @@ public class RoundProgressBar{
     
     private init(){}
     
-    static func addRoundProgressBar(view: UIView){
+    public static func addRoundProgressBar(view: UIView){
         self.view = view
         self.mainViewColor = view.backgroundColor
         if #available(iOS 10.0, *) {
@@ -49,26 +49,26 @@ public class RoundProgressBar{
         self.view!.addSubview(progressView)
     }
     
-    static func setProgress(progress: Float){
+    public static func setProgress(progress: Float){
         self.coveringLayer.strokeEnd = CGFloat(progress)
     }
     
-    static func hideProgressBar(){
+    public static func hideProgressBar(){
         self.trackLayer.removeFromSuperlayer()
         self.coveringLayer.removeFromSuperlayer()
         self.progressView.removeFromSuperview()
         self.view?.backgroundColor = self.mainViewColor
     }
     
-    static func setTrackColor(color: UIColor){
+    public static func setTrackColor(color: UIColor){
         self.trackLayer.strokeColor = color.cgColor
     }
     
-    static func setProgressColor(color: UIColor){
+    public static func setProgressColor(color: UIColor){
         self.coveringLayer.strokeColor = color.cgColor
     }
     
-    static func setProgressBackgroundColor(color: UIColor){
+    public static func setProgressBackgroundColor(color: UIColor){
         self.progressView.backgroundColor = color
     }
 }
