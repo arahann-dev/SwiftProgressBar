@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftProgressBar_Example' do
+  pod 'SwiftProgressBar', :path => '../'
+
+  target 'SwiftProgressBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

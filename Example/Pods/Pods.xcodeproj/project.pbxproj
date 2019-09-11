@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F7338A1B2CA6049618A919D51381534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5F2C1C01C28E12470011070FDC8ADD4C /* Pods-SwiftProgressBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0F7E46BAC093F3514493A94765F393 /* Pods-SwiftProgressBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7026CA5E5B071F6977284713167C47BD /* SwiftProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1D7AED34401FB77101CCA3B7AABECF /* SwiftProgressBar-dummy.m */; };
+		A54E770CE789536DA040E8AAB80EB730 /* SwiftProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 368F2DE6603212B1B645662BFBD6BEB2 /* SwiftProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5F7B09A3429ACFCB9381C9855923AD5 /* Pods-SwiftProgressBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC82AFF3202F794AD9CED472C0DE5904 /* Pods-SwiftProgressBar_Example-dummy.m */; };
+		A673833DF4F281A93A3821AA2925A7F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A682A31C0ECE1AA1DD91CD764AA4C138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B8026925641052CEC5157E5EFEC908B6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628F629B34D1AF83A1810EB27B2ED156 /* ReplaceMe.swift */; };
+		E411B2920813CBCB7AC553526F9396F2 /* Pods-SwiftProgressBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C910E74933212B39007368C513DFF0DC /* Pods-SwiftProgressBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC8D3032D7B96FE8DEDB2EB145E9ABEE /* Pods-SwiftProgressBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E440094F2A53534BA073EF071B0FC /* Pods-SwiftProgressBar_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F2A31D13F5E6424244429F81E25AE7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB6405DEF0DE74DC27FA63F4032D938F;
+			remoteInfo = "Pods-SwiftProgressBar_Example";
+		};
+		C3E59322329D06932522BCFCB41F84FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F052F6D2178EC7F84EC793958E5C661D;
+			remoteInfo = SwiftProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B09A972339F90541D0AC40838A50843 /* Pods_SwiftProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftProgressBar_Example.framework; path = "Pods-SwiftProgressBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		188278AB0F4CCBDFBDCED23CA62CCD6C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		368F2DE6603212B1B645662BFBD6BEB2 /* SwiftProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		3CE777D69547ECB16C9352AE2443D88F /* Pods-SwiftProgressBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftProgressBar_Example.modulemap"; sourceTree = "<group>"; };
+		3FB2DD4DB6D79422F06773BB3063D44C /* Pods-SwiftProgressBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProgressBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		463405275304AF3601C092285A0A7E09 /* Pods-SwiftProgressBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SwiftProgressBar_Tests.modulemap"; sourceTree = "<group>"; };
+		47FC949ECF97FC56D6E63F41771E4389 /* Pods_SwiftProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftProgressBar_Tests.framework; path = "Pods-SwiftProgressBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		588725226F4FB882D49933FA6FBD506E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		628F629B34D1AF83A1810EB27B2ED156 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SwiftProgressBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		78B014A00BE3602A2E2BD471774C0DD0 /* Pods-SwiftProgressBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProgressBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7A1D7AED34401FB77101CCA3B7AABECF /* SwiftProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftProgressBar-dummy.m"; sourceTree = "<group>"; };
+		7AADD8B82B9B041022105EB5F94160B5 /* Pods-SwiftProgressBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProgressBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8103F4C93A46DBC52AD0CFDE5BC6FC2F /* Pods-SwiftProgressBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftProgressBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		890E440094F2A53534BA073EF071B0FC /* Pods-SwiftProgressBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftProgressBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		8A0F7E46BAC093F3514493A94765F393 /* Pods-SwiftProgressBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftProgressBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		8FA75A263AF2E1344384DE4284E625B6 /* Pods-SwiftProgressBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProgressBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		9074EECF9822031B5B7353E3414B9718 /* SwiftProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftProgressBar.xcconfig; sourceTree = "<group>"; };
+		94A5E812B7A85A211348603737028010 /* Pods-SwiftProgressBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProgressBar_Example-resources.sh"; sourceTree = "<group>"; };
+		97FAD8D65B0D72E53DF7230E102F217A /* SwiftProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftProgressBar.framework; path = SwiftProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0AAC24B52ED1CA7E2E88541EAB2225 /* Pods-SwiftProgressBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftProgressBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A2365E01515DA22ADA2B2301BC83B2AB /* SwiftProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftProgressBar.modulemap; sourceTree = "<group>"; };
+		AF0B50B453DBBE7AC5B945C86290CC09 /* SwiftProgressBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwiftProgressBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B26CCE42702A169B96BF882A72368D92 /* Pods-SwiftProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BDB0FD8429D0CFAA1D6CC68E598E91B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C910E74933212B39007368C513DFF0DC /* Pods-SwiftProgressBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftProgressBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C9676DAFFAD352456A1B26C1BAAB401F /* SwiftProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC82AFF3202F794AD9CED472C0DE5904 /* Pods-SwiftProgressBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftProgressBar_Example-dummy.m"; sourceTree = "<group>"; };
+		D1B1EFD2EAA0F2165663A1143066B97E /* Pods-SwiftProgressBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftProgressBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC56AA3EC5472B936CD0C3B1908AAC5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2FD39F8732032029BB18BD96726455F /* Pods-SwiftProgressBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProgressBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EE646B5815716658D86D6A2FFFE19130 /* Pods-SwiftProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F88A8F2251A79B3717C9CB2C12DC9304 /* Pods-SwiftProgressBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftProgressBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FDF8A0CFAE5B957AC78123AF40736CAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D6925D7E826D8C17FC39E63575CFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F7338A1B2CA6049618A919D51381534 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CEE06DE65525FA7DC37654EE8E7FDB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A673833DF4F281A93A3821AA2925A7F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD3134E3EE03BA5945F747E9CBED7C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A682A31C0ECE1AA1DD91CD764AA4C138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1683CB7A0EAF955F266E3D9E92DD6CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B09A972339F90541D0AC40838A50843 /* Pods_SwiftProgressBar_Example.framework */,
+				47FC949ECF97FC56D6E63F41771E4389 /* Pods_SwiftProgressBar_Tests.framework */,
+				97FAD8D65B0D72E53DF7230E102F217A /* SwiftProgressBar.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460280F55E4B4E8B59F43A9A60397337 /* Pods-SwiftProgressBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DC56AA3EC5472B936CD0C3B1908AAC5F /* Info.plist */,
+				3CE777D69547ECB16C9352AE2443D88F /* Pods-SwiftProgressBar_Example.modulemap */,
+				F88A8F2251A79B3717C9CB2C12DC9304 /* Pods-SwiftProgressBar_Example-acknowledgements.markdown */,
+				8103F4C93A46DBC52AD0CFDE5BC6FC2F /* Pods-SwiftProgressBar_Example-acknowledgements.plist */,
+				CC82AFF3202F794AD9CED472C0DE5904 /* Pods-SwiftProgressBar_Example-dummy.m */,
+				E2FD39F8732032029BB18BD96726455F /* Pods-SwiftProgressBar_Example-frameworks.sh */,
+				94A5E812B7A85A211348603737028010 /* Pods-SwiftProgressBar_Example-resources.sh */,
+				8A0F7E46BAC093F3514493A94765F393 /* Pods-SwiftProgressBar_Example-umbrella.h */,
+				7AADD8B82B9B041022105EB5F94160B5 /* Pods-SwiftProgressBar_Example.debug.xcconfig */,
+				3FB2DD4DB6D79422F06773BB3063D44C /* Pods-SwiftProgressBar_Example.release.xcconfig */,
+			);
+			name = "Pods-SwiftProgressBar_Example";
+			path = "Target Support Files/Pods-SwiftProgressBar_Example";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9F37145DCB3EA8509DDD29530CA6FE6A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				460280F55E4B4E8B59F43A9A60397337 /* Pods-SwiftProgressBar_Example */,
+				F759FDBCDAA2538493EB5D2920E5E399 /* Pods-SwiftProgressBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C542BCA6EFA9EE7E76F1B07C12CBE99E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9AF490FFEC8E4DC096D8DE302169DEB /* SwiftProgressBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				24390EFD555DD124430DFF9724065945 /* Podfile */,
+				C542BCA6EFA9EE7E76F1B07C12CBE99E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1683CB7A0EAF955F266E3D9E92DD6CDC /* Products */,
+				9F37145DCB3EA8509DDD29530CA6FE6A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D274542D8A22199808CA5EB9143ADE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDF8A0CFAE5B957AC78123AF40736CAA /* Info.plist */,
+				A2365E01515DA22ADA2B2301BC83B2AB /* SwiftProgressBar.modulemap */,
+				9074EECF9822031B5B7353E3414B9718 /* SwiftProgressBar.xcconfig */,
+				7A1D7AED34401FB77101CCA3B7AABECF /* SwiftProgressBar-dummy.m */,
+				C9676DAFFAD352456A1B26C1BAAB401F /* SwiftProgressBar-prefix.pch */,
+				368F2DE6603212B1B645662BFBD6BEB2 /* SwiftProgressBar-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SwiftProgressBar";
+			sourceTree = "<group>";
+		};
+		E50669D2A944071B3F8AC6055DBC30A4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				188278AB0F4CCBDFBDCED23CA62CCD6C /* LICENSE */,
+				BDB0FD8429D0CFAA1D6CC68E598E91B7 /* README.md */,
+				AF0B50B453DBBE7AC5B945C86290CC09 /* SwiftProgressBar.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F759FDBCDAA2538493EB5D2920E5E399 /* Pods-SwiftProgressBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				588725226F4FB882D49933FA6FBD506E /* Info.plist */,
+				463405275304AF3601C092285A0A7E09 /* Pods-SwiftProgressBar_Tests.modulemap */,
+				9A0AAC24B52ED1CA7E2E88541EAB2225 /* Pods-SwiftProgressBar_Tests-acknowledgements.markdown */,
+				D1B1EFD2EAA0F2165663A1143066B97E /* Pods-SwiftProgressBar_Tests-acknowledgements.plist */,
+				890E440094F2A53534BA073EF071B0FC /* Pods-SwiftProgressBar_Tests-dummy.m */,
+				78B014A00BE3602A2E2BD471774C0DD0 /* Pods-SwiftProgressBar_Tests-frameworks.sh */,
+				8FA75A263AF2E1344384DE4284E625B6 /* Pods-SwiftProgressBar_Tests-resources.sh */,
+				C910E74933212B39007368C513DFF0DC /* Pods-SwiftProgressBar_Tests-umbrella.h */,
+				EE646B5815716658D86D6A2FFFE19130 /* Pods-SwiftProgressBar_Tests.debug.xcconfig */,
+				B26CCE42702A169B96BF882A72368D92 /* Pods-SwiftProgressBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-SwiftProgressBar_Tests";
+			path = "Target Support Files/Pods-SwiftProgressBar_Tests";
+			sourceTree = "<group>";
+		};
+		F9AF490FFEC8E4DC096D8DE302169DEB /* SwiftProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				628F629B34D1AF83A1810EB27B2ED156 /* ReplaceMe.swift */,
+				E50669D2A944071B3F8AC6055DBC30A4 /* Pod */,
+				E1D274542D8A22199808CA5EB9143ADE /* Support Files */,
+			);
+			name = SwiftProgressBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		321CA8D85A6C8C00C1A1F235FE409832 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54E770CE789536DA040E8AAB80EB730 /* SwiftProgressBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		529B301B42A6B6C1B16ED78563F437CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E411B2920813CBCB7AC553526F9396F2 /* Pods-SwiftProgressBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09C41A929E08EC0B423188F84C54D23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F2C1C01C28E12470011070FDC8ADD4C /* Pods-SwiftProgressBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E7C01CDEF086754D720575A8725A7CE /* Pods-SwiftProgressBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 981F160886E4E3F6B35E849F3E8E8E9B /* Build configuration list for PBXNativeTarget "Pods-SwiftProgressBar_Tests" */;
+			buildPhases = (
+				529B301B42A6B6C1B16ED78563F437CE /* Headers */,
+				5E2A5D76E170A65A9BEDBE3B2990602A /* Sources */,
+				4CEE06DE65525FA7DC37654EE8E7FDB7 /* Frameworks */,
+				69D8F138044D73196C0B5D8781769BDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAD214762B8EA055B8D030F7B4C4E9AC /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftProgressBar_Tests";
+			productName = "Pods-SwiftProgressBar_Tests";
+			productReference = 47FC949ECF97FC56D6E63F41771E4389 /* Pods_SwiftProgressBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F052F6D2178EC7F84EC793958E5C661D /* SwiftProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABBB4DAC32F400054CB811E19BF77D80 /* Build configuration list for PBXNativeTarget "SwiftProgressBar" */;
+			buildPhases = (
+				321CA8D85A6C8C00C1A1F235FE409832 /* Headers */,
+				D2D655553C694E9A21D92136B50FEFB0 /* Sources */,
+				46D6925D7E826D8C17FC39E63575CFBE /* Frameworks */,
+				7F548E01147E6CCBF82FAFA75218ABCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftProgressBar;
+			productName = SwiftProgressBar;
+			productReference = 97FAD8D65B0D72E53DF7230E102F217A /* SwiftProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB6405DEF0DE74DC27FA63F4032D938F /* Pods-SwiftProgressBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9AF7E03C032380F7088DF698DAEE02 /* Build configuration list for PBXNativeTarget "Pods-SwiftProgressBar_Example" */;
+			buildPhases = (
+				E09C41A929E08EC0B423188F84C54D23 /* Headers */,
+				F17290B0AE589AD85021A6B77E6BECC0 /* Sources */,
+				DD3134E3EE03BA5945F747E9CBED7C14 /* Frameworks */,
+				F5DFE3D6C7A6FFE161367CC26F007220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85BF771E52F5AC03D51E82C678E4108 /* PBXTargetDependency */,
+			);
+			name = "Pods-SwiftProgressBar_Example";
+			productName = "Pods-SwiftProgressBar_Example";
+			productReference = 0B09A972339F90541D0AC40838A50843 /* Pods_SwiftProgressBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1683CB7A0EAF955F266E3D9E92DD6CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB6405DEF0DE74DC27FA63F4032D938F /* Pods-SwiftProgressBar_Example */,
+				3E7C01CDEF086754D720575A8725A7CE /* Pods-SwiftProgressBar_Tests */,
+				F052F6D2178EC7F84EC793958E5C661D /* SwiftProgressBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D8F138044D73196C0B5D8781769BDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F548E01147E6CCBF82FAFA75218ABCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5DFE3D6C7A6FFE161367CC26F007220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E2A5D76E170A65A9BEDBE3B2990602A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8D3032D7B96FE8DEDB2EB145E9ABEE /* Pods-SwiftProgressBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2D655553C694E9A21D92136B50FEFB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8026925641052CEC5157E5EFEC908B6 /* ReplaceMe.swift in Sources */,
+				7026CA5E5B071F6977284713167C47BD /* SwiftProgressBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17290B0AE589AD85021A6B77E6BECC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F7B09A3429ACFCB9381C9855923AD5 /* Pods-SwiftProgressBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B85BF771E52F5AC03D51E82C678E4108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftProgressBar;
+			target = F052F6D2178EC7F84EC793958E5C661D /* SwiftProgressBar */;
+			targetProxy = C3E59322329D06932522BCFCB41F84FD /* PBXContainerItemProxy */;
+		};
+		BAD214762B8EA055B8D030F7B4C4E9AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SwiftProgressBar_Example";
+			target = FB6405DEF0DE74DC27FA63F4032D938F /* Pods-SwiftProgressBar_Example */;
+			targetProxy = 8F2A31D13F5E6424244429F81E25AE7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C1205DB14BA99CF62BC2460ABCD80FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB2DD4DB6D79422F06773BB3063D44C /* Pods-SwiftProgressBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProgressBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProgressBar_Example/Pods-SwiftProgressBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DF76691DA1C94C13B8C674606C7E743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AADD8B82B9B041022105EB5F94160B5 /* Pods-SwiftProgressBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProgressBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProgressBar_Example/Pods-SwiftProgressBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		727C37C75B69BB0A75EBD0DAE4FD4F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9074EECF9822031B5B7353E3414B9718 /* SwiftProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftProgressBar/SwiftProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftProgressBar/SwiftProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProgressBar;
+				PRODUCT_NAME = SwiftProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A97E6A10536785E9FD7172DA64AAC59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9074EECF9822031B5B7353E3414B9718 /* SwiftProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftProgressBar/SwiftProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftProgressBar/SwiftProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProgressBar;
+				PRODUCT_NAME = SwiftProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2D8ABB6E4BC099AA916C6E74DA83921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AD539FC159C44C1163E87D1DF6D64B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE646B5815716658D86D6A2FFFE19130 /* Pods-SwiftProgressBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProgressBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProgressBar_Tests/Pods-SwiftProgressBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B6D9DF23D52F9A21C67E9E2B2B1B268D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B26CCE42702A169B96BF882A72368D92 /* Pods-SwiftProgressBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SwiftProgressBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SwiftProgressBar_Tests/Pods-SwiftProgressBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF17B80227EE551582927B0FBE01EF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D8ABB6E4BC099AA916C6E74DA83921 /* Debug */,
+				BF17B80227EE551582927B0FBE01EF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9AF7E03C032380F7088DF698DAEE02 /* Build configuration list for PBXNativeTarget "Pods-SwiftProgressBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DF76691DA1C94C13B8C674606C7E743 /* Debug */,
+				3C1205DB14BA99CF62BC2460ABCD80FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		981F160886E4E3F6B35E849F3E8E8E9B /* Build configuration list for PBXNativeTarget "Pods-SwiftProgressBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD539FC159C44C1163E87D1DF6D64B55 /* Debug */,
+				B6D9DF23D52F9A21C67E9E2B2B1B268D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABBB4DAC32F400054CB811E19BF77D80 /* Build configuration list for PBXNativeTarget "SwiftProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727C37C75B69BB0A75EBD0DAE4FD4F50 /* Debug */,
+				7A97E6A10536785E9FD7172DA64AAC59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
