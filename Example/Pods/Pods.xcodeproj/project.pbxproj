@@ -16,7 +16,7 @@
 		A682A31C0ECE1AA1DD91CD764AA4C138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		E411B2920813CBCB7AC553526F9396F2 /* Pods-SwiftProgressBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C910E74933212B39007368C513DFF0DC /* Pods-SwiftProgressBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC8D3032D7B96FE8DEDB2EB145E9ABEE /* Pods-SwiftProgressBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 890E440094F2A53534BA073EF071B0FC /* Pods-SwiftProgressBar_Tests-dummy.m */; };
-		ED8F6D512328C0B70064F39D /* RoundProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8F6D502328C0B70064F39D /* RoundProgressBar.swift */; };
+		EDC6D8DB23291C5A007C8D97 /* SwiftProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC6D8DA23291C5A007C8D97 /* SwiftProgressBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,7 @@
 		D1B1EFD2EAA0F2165663A1143066B97E /* Pods-SwiftProgressBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftProgressBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DC56AA3EC5472B936CD0C3B1908AAC5F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2FD39F8732032029BB18BD96726455F /* Pods-SwiftProgressBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftProgressBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		ED8F6D502328C0B70064F39D /* RoundProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundProgressBar.swift; sourceTree = "<group>"; };
+		EDC6D8DA23291C5A007C8D97 /* SwiftProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftProgressBar.swift; sourceTree = "<group>"; };
 		EE646B5815716658D86D6A2FFFE19130 /* Pods-SwiftProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F88A8F2251A79B3717C9CB2C12DC9304 /* Pods-SwiftProgressBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftProgressBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FDF8A0CFAE5B957AC78123AF40736CAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -219,7 +219,7 @@
 		F9AF490FFEC8E4DC096D8DE302169DEB /* SwiftProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				ED8F6D502328C0B70064F39D /* RoundProgressBar.swift */,
+				EDC6D8DA23291C5A007C8D97 /* SwiftProgressBar.swift */,
 				E50669D2A944071B3F8AC6055DBC30A4 /* Pod */,
 				E1D274542D8A22199808CA5EB9143ADE /* Support Files */,
 			);
@@ -383,8 +383,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC6D8DB23291C5A007C8D97 /* SwiftProgressBar.swift in Sources */,
 				7026CA5E5B071F6977284713167C47BD /* SwiftProgressBar-dummy.m in Sources */,
-				ED8F6D512328C0B70064F39D /* RoundProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import SwiftProgressBar
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        SwiftProgressBar.addCircularProgressBar(view: self.view, type: 1)
+        SwiftProgressBar.setTrackColor(color: UIColor.black)
+        SwiftProgressBar.setProgress(progress: 0.3)
     }
 
     override func didReceiveMemoryWarning() {
